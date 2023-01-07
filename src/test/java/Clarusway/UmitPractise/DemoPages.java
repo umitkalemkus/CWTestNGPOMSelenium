@@ -14,6 +14,9 @@ public class DemoPages {
 
     }
 
+    @FindBy(className ="a-button-input" )
+    public WebElement adress;
+
     @FindBy (id ="twotabsearchtextbox")
       public WebElement search;
 

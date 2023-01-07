@@ -7,12 +7,15 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ExampleHomePages {
 
-    public ExampleHomePages() {
+    public ExampleHomePages() throws InterruptedException {
 
         PageFactory.initElements(Driver.getDriver(), this);
 
         DemoPages dm = new DemoPages();
+
+        dm.adress.click();
         dm.search.sendKeys("apple");
+
 
     }
 
