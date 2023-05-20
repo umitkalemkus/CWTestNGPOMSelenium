@@ -8,6 +8,10 @@ public class Day01_C02_ConfigReader {
     @Test
     public void readConfig() throws InterruptedException {
 
+
+
+
+
         Driver.getDriver().get(ConfigReader.getProperty("google_url"));
 
 
